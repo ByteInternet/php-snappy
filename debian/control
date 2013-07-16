@@ -1,0 +1,14 @@
+Source: php-snappy
+Section: php
+Priority: optional
+Maintainer: Sergey B Kirpichev <skirpichev@gmail.com>
+Build-Depends: debhelper (>= 9), php5-dev (>= 5.4.1), zlib1g-dev
+Standards-Version: 3.9.4
+
+Package: php5-snappy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${php:Depends}
+Suggests: snappy
+Description: snappy extension module for PHP5
+ This extension allows you to work with snappy through handy OO and
+ procedural interfaces in your php5 applications.
